@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <script src="element.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        range-slider:nth-of-type(1) {
+            --color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>&lt;range-slider> Web Component</h1>
+    <p>
+        Initial version by: <a href="https://chat.openai.com/g/g-quK0nMtwZ-create-or-refactor-your-web-component">Web
+            Component GPT</a>
+    </p>
+    <p>
+        Refactored to:
+        <a
+            href="https://github.com/range-slider/range-slider.github.io">https://github.com/range-slider/range-slider.github.io</a>
+    </p>
+    <h2>Load</h2>
+    <pre><code>&ltscript src="https://range-slider.github.io/element.js">&lt;/script></code></pre>
+    <h2>Usage</h2>
+    <pre><code>&ltrange-slider min="0" max="100" lower="35" upper="95" color="green" nolabel>&lt;/range-slider></code></pre>
+    <h2>Examples</h2>
+    <hr>
+    <range-slider min="0" max="100" lower="15" upper="60">666</range-slider>
+    <range-slider min="0" max="100" lower="25" upper="80"></range-slider>
+    <range-slider min="0" max="100" lower="35" upper="95" color="green" nolabel></range-slider>
+</body>
+
+</html>
